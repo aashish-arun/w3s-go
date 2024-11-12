@@ -1,0 +1,84 @@
+1. Hello, World!
+    Goal: Write a program that prints "Hello, World!" to the console.
+    Concepts: Syntax, basic Go structure, fmt package.
+
+2. Basic Variables and I/O
+    Goal: Write a program that prompts the user for their name and age, then prints a greeting.
+    Concepts: Variables, basic input/output, fmt.Scan.
+
+3. Basic Functions
+    Goal: Write a function to calculate the area of a rectangle given width and height, and call it in main.
+    Concepts: Functions, return values, parameters.
+
+4. Control Flow (Loops and Conditionals)
+    Goal: Write a program that takes a number n as input and prints if each number from 1 to n is odd or even.
+    Concepts: Loops, conditionals, basic math.
+
+5. Arrays and Slices
+    Goal: Write a function that takes a slice of integers and returns the sum of its elements.
+    Concepts: Arrays, slices, looping over collections.
+
+6. Maps (Dictionaries)
+    Goal: Write a program that counts the occurrence of each word in a given string.
+    Concepts: Maps, strings, looping over maps.
+
+7. Structs and Methods
+    Goal: Create a Person struct with fields for name and age, and a method that returns a greeting message.
+    Concepts: Structs, methods.
+
+8. Interfaces
+    Goal: Define an interface Shape with a method Area() and implement it for both a Rectangle and a Circle struct.
+    Concepts: Interfaces, polymorphism.
+
+9. Concurrency with Goroutines
+    Goal: Write a program that launches two goroutines: one that prints "Ping" and another that prints "Pong" in an alternating fashion.
+    Concepts: Goroutines, channels, concurrency.
+
+10. Error Handling and Custom Errors
+    Goal: Write a function that divides two numbers and returns an error if the divisor is zero.
+    Concepts: Error handling, custom error messages.
+
+11. JSON Serialization and Deserialization
+    Goal: Write a program that defines a User struct, then serializes an instance of User to JSON and deserializes it back to a struct.
+    Concepts: JSON encoding/decoding, encoding/json package.
+
+12. Advanced Error Handling with Custom Types
+    Goal: Create a custom error type that includes additional context (e.g., a code or description) and implement the Error() method.
+    Concepts: Custom error types, error handling.
+
+13. Using Context for Timeout and Cancellation
+    Goal: Write a function that simulates a time-consuming task, allowing it to be canceled early using context.Context.
+    Concepts: Context management, cancellation, timeouts.
+
+14. Concurrency with sync.WaitGroup
+    Goal: Launch multiple goroutines that each print a message after a delay, using sync.WaitGroup to ensure the main function waits for all goroutines to finish.
+    Concepts: Synchronization, sync.WaitGroup.
+
+15. Reading and Writing Files
+    Goal: Create a program that writes a list of strings to a file and then reads the file content back.
+    Concepts: File I/O, os and io/ioutil packages.
+
+16. Creating and Using Goroutines with sync.Mutex for Safe Access
+    Goal: Write a program where multiple goroutines increment a shared counter, using sync.Mutex to ensure data safety.
+    Concepts: Mutex, race conditions, data safety.
+
+17. Implementing a Simple Web Server
+    Goal: Create a simple web server in Go that responds with "Hello, Web!" when accessed.
+    Concepts: net/http package, creating HTTP handlers, routing.
+
+18. Writing Tests with the testing Package
+    Goal: Write a simple test for a function that adds two numbers, using Go’s testing package.
+    Concepts: Unit testing, testing package.
+
+19. Concurrency with Select and Buffered Channels
+    Goal: Implement a program where two goroutines send messages through a buffered channel and the main goroutine reads messages selectively with select.
+    Concepts: Buffered channels, select statements.
+
+20. Building a REST API
+    Goal: Create a REST API with routes to create, retrieve, update, and delete users, using JSON as the data format.
+Concepts: RESTful APIs, HTTP methods, JSON, routing.
+
+Note:
+    Questions 01 - 10 covers basic to intermediate Go programming concepts, suitable for PBL by building on each previous concept.
+    
+    Questions 11 - 20 introduce more advanced Go concepts, including concurrency, web development, and testing, which are crucial for developing scalable applications in Go.
