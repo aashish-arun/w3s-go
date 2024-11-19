@@ -11,3 +11,10 @@ Day 1(11|11|2024) - 1 hr 46 min
     Problems - Completed qn 1.
     Additional Note:
         Organized and made a schedue for learning go. 
+
+Day 2(11|11|2024) - 24 min
+    Portins - Covered till Arrays, will start with slices next.
+    Problems - N/A
+    Additional Note:
+        N/A
+        
