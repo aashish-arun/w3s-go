@@ -257,9 +257,102 @@ Arrays
         The len() function is used to find the length of an array
 
 Slices
+    It is also used to store multiple values of the same type in a single variable like array but the length of a slice can grow and shrink as you see fit.
 
+    Three ways to create a slice
 
+        1. With []datatype{values}
 
+            Syntax
+                slice_name := []datatype{values}
+
+        2. From an array
+
+            Syntax
+                var myarray = [length]datatype{values} // An array
+                myslice := myarray[start:end] // A slice made from the array
+        3.  With make() function
+
+            Syntax
+                slice_name := make([]type, length, capacity)
+                
+                Note: Can choose to ommit capacity value 
+
+ 
+    There are two functions that can be used to return the length and capacity of a slice
+
+        1. len() function - returns the length of the slice (the number of elements in the slice)
+           
+        2. cap() function - returns the capacity of the slice (the number of elements the slice can grow or shrink to)
+    
+    Access Elements of a Slice
+        You can access a specific slice element by referring to the index number.
+
+    Change Elements of a Slice
+        You can also change a specific slice element by referring to the index number.
+
+    Append Elements To a Slice
+        You can append elements to the end of a slice using the append()function
+
+        Syntax
+            slice_name = append(slice_name, element1, element2, ...)
+
+    Append One Slice To Another Slice
+        You can append all the elements of one slice to another slice using the append()function
+
+        Syntax
+            slice3 = append(slice1, slice2...)
+
+            Note: The '...' after slice2 is necessary when appending the elements of one slice to another.
+
+    Change The Length of a Slice
+        You can change the length of a slice unlinke array.
+
+    Memory Efficiency
+        you can save memory by using copy() function to create a new underlying array with only the required elements for the slice.
+
+        Syntax
+            copy(dest, src)
+
+Operators
+    Operators are used to perform operations on variables and values.
+    
+    They are divided into the following groups based on there operations
+
+        1. Arithmetic Operators
+
+            1. Addition Operators (+)
+            Adds together two values
+
+            2. Subtraction Operators (-)
+            Subtracts one value from another
+
+            3. Multiplication Operators (*)
+                Multiplies two values
+
+            4. Division Operators (/)
+                Divides one value by another
+
+            5. Modulus Operators (%)
+                Returns the division remainder
+
+            6. Increment Operators (++)
+                Increases the value of a variable by 1
+
+            7. 	Decrement Operators (--)
+                Decreases the value of a variable by 1
+
+        2. Assignment Operators
+
+            1. Assignment Operators
+            2. Addition Assignment Operators
+            3. Subtraction Assignment Operators 
+            4. Multiplication Operators (*)
+                Multiplies two values
+            5. Division Assignment Operators (/=)
+
+            6. Modulus Assignment Operators (%)
+  
 
 
 

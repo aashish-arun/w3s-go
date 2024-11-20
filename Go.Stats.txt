@@ -6,15 +6,20 @@ go.stats {
     End Date: DD|MM|2024
 }
 
-Day 1(11|11|2024) - 1 hr 46 min
+Day 1 (11|11|2024) - 1 hr 46 min
     Portins - Covered till output fucntions and got into a bit of data types (w3s).
     Problems - Completed qn 1.
     Additional Note:
         Organized and made a schedue for learning go. 
 
-Day 2(11|11|2024) - 24 min
+Day 2 (18|11|2024) - 24 min
     Portins - Covered till Arrays, will start with slices next.
     Problems - N/A
     Additional Note:
         N/A
         
+Day 3 (19|11|2024) - 28 min
+    Portins - Covered till Slices and got into a bit of operatos (w3s).
+    Problems - N/A
+    Additional Note:
+        N/A
