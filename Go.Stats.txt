@@ -29,3 +29,9 @@ Day 4 (20|11|2024) - 33 min
     Problems - N/A
     Additional Note:
         N/A
+
+Day 5 (21|11|2024) - 37 min
+    Portins - Covered till Loops and got halfway through functions (w3s).
+    Problems - N/A
+    Additional Note:
+        N/A

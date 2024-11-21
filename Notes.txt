@@ -493,6 +493,103 @@ Conditions
                 }
                 }
 
+Loops
+    Only one loop is available in go which is the for loop and it loops through a block of code a specified number of times.
 
+    For loop
+        It loops through a block of code a specified number of times. Only one loop is available in go.
+
+        Syntax
+            for statement1; statement2; statement3 {
+            // code to be executed for each iteration
+            }
+
+            The for loop can take up to three statements:
+                statement1 Initializes the loop counter value.
+
+                statement2 Evaluated for each loop iteration. If it evaluates to TRUE, the loop continues. If it evaluates to FALSE, the loop ends.
+
+                statement3 Increases the loop counter value.
+
+                Note: These statements don't need to be present as loops arguments. However, they need to be present in the code in some form.
+
+        Note: Each execution of a loop is called an iteration.
+    
+    The continue Statement
+        The continue statement is used to skip one or more iterations in the loop. It then continues with the next iteration in the loop.
+    
+    The break Statement
+        The break statement is used to break/terminate the loop execution.
+
+    Note: continue and break are usually used with conditions.
+
+    Nested Loops
+        It is possible to place a loop inside another loop.
+    
+    The Range Keyword
+        The range keyword is used to more easily iterate through the elements of an array, slice or map. It returns both the index and the value.
+
+        idx keyword stores the index, 
+        val keyword stores the value
+        _ keyword omits the other output
+
+Functions
+    A function is a block of statements that can be used repeatedly in a program. It  will not execute automatically when a page loads. It will only be executed by a call to the function.
+
+    Create a Function
+        Steps to creaete a function
+            Use the func keyword.
+            Specify a name for the function, followed by parentheses ().
+            Finally, add code that defines what the function should do, inside curly braces {}.
+
+        Syntax
+            func FunctionName() {
+            // code to be executed
+            }
+
+    Call a Function
+        Syntax
+            func main() {
+            FunctionName() // call the function
+            }
+
+        Note: A function can be called multiple times.
+
+    Naming Rules for Go Functions
+        A function name must start with a letter
+        A function name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+        Function names are case-sensitive
+        A function name cannot contain spaces
+        If the function name consists of multiple words, techniques introduced for multi-word variable naming can be used
+
+        Note: It is better to give a function a name that reflects what the function does.
+
+    Parameters
+        Information can be passed to functions as a parameter. Parameters act as variables inside the function.
+
+        Parameters and their types are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma:
+
+        Syntax
+            func FunctionName(param1 type, param2 type, param3 type) {
+            // code to be executed
+            }
+
+            Note: Inside the function, you can add as many parameters as you want . But make sure the function call have the same number of arguments as there are parameters, and the arguments must be passed in the same order.
+
+    Arguments     
+        When a parameter is passed to the function, it is called an argument. (i.e the parameter that is used to call the function)
+    
+    Returns function
+    
+        Return Values
+            If you want the function to return a value, you need to define the data type of the return value (such as int, string, etc), and also use the return keyword inside the function.
+
+            Syntax
+                func FunctionName(param1 type, param2 type) type {
+                // code to be executed
+                return output
+                }
+
+        Named Return Values    
 Note
     1. \n creates new lines.
